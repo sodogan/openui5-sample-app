@@ -7,7 +7,7 @@
 				<content>
 					<f:DynamicPage>
 						<f:header>
-							<f:DynamicPageHeader pinnable="false">
+							<f:DynamicPageHeader pinnable="true">
 								<Input class="todoInput" id="addTodoItemInput" value="{/newTodo}" placeholder="{i18n>INPUT_PLACEHOLDER}" change=".addTodo" />
 							</f:DynamicPageHeader>
 						</f:header>
